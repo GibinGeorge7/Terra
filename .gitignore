@@ -1,5 +1,8 @@
 .git
-.terraform
+
+#ignore all.terraform folder inparent + subfolders
+**.terraform
+
 terraform.exe
 terraform.tfstate
 terraform.tfstate.backup
