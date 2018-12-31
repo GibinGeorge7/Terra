@@ -1,3 +1,6 @@
+
+#create ec2 instance using terraform modules
+
 provider "aws" {
   region = "eu-west-3"
 }

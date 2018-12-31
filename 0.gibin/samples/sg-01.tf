@@ -1,5 +1,7 @@
 
-#this group allows incoming TCP requests on port 8080 from the CIDR block 0.0.0.0/0. (so the security group above allows incoming requests on port 8080 from any IP).
+
+
+#this SG allows incoming TCP requests on port 8080 from any ip. 
 
 
 resource "aws_security_group" "instance" {

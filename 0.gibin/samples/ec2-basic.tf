@@ -1,3 +1,7 @@
+
+#create ec2 instacne from AMI
+
+
 provider "aws" {
   region = "eu-west-3"
 }

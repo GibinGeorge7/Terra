@@ -1,3 +1,7 @@
+
+#create ec2 and store instance ip in local file 
+
+
 resource "aws_instance" "example" {
   ami           = "ami-b374d5a5"
   instance_type = "t2.micro"

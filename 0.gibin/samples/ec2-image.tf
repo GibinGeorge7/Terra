@@ -1,3 +1,8 @@
+
+
+#create EC2 instance using LATEST ubuntu AMI
+
+
 provider "aws" {
   region = "us-east-2"
 }

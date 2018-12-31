@@ -1,3 +1,10 @@
+
+#create ec2 instance 
+#connect  into ec2 instance and install nginx web server
+#need to OPEN SG connections  (from console) else will FAIL **
+
+
+
 ##################################################################################
 # VARIABLES
 ##################################################################################

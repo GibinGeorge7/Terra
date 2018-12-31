@@ -1,6 +1,6 @@
 # create EC2 Instance 
 # create VPC ,subnets,route table , IGW
-# create security group - IN /OUT
+# create security group + rules
 
 
 ##################################################################################
@@ -122,7 +122,7 @@ resource "aws_security_group" "nginx-sg" {
 
 # INSTANCES #
 resource "aws_instance" "nginx1" {
-  ami           = "ami-c58c1dd3"
+  ami           = "${var.ec2_ami}"
   instance_type = "t2.micro"
   subnet_id     = "${aws_subnet.subnet1.id}"
   vpc_security_group_ids = ["${aws_security_group.nginx-sg.id}"]
