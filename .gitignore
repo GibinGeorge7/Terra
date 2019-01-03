@@ -7,4 +7,4 @@ terraform.exe
 terraform.tfstate
 terraform.tfstate.backup
 AWS-EC2-1.pem
-terraform.tfvars
+*.tfvars
