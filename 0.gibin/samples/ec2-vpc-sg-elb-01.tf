@@ -1,10 +1,8 @@
 
-#craet 2 ec2 instance
-# create vpc,subnets,route-table,IG
+#create 2 ec2 instances
+#create vpc,subnets,route-table,IGW
 #create SG + rules
 #create ELB 
-
-
 
 
 ##################################################################################
