@@ -1,7 +1,7 @@
 
 
-#Using Functions - cidrsubnet ,lookup ,element
-#TERRAFORM  meta-parameter : COUNT
+#TERRAFORM Functions - cidrsubnet ,lookup ,element
+#TERRAFORM Meta-parameter : COUNT
 #create 2 ec2 instances
 #create vpc,subnets,route-table,IGW
 #create SG + rules
